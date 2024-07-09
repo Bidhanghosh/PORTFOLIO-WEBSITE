@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+          <img src ="Logo.png" class="logo">
+                <ul id="sidemenu">
+                        <li> <a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              <p>Data Analyst</p>
+              <h1>Hi, I'm<span> Bidhan Chandra Ghosh </span><br>From INDIA </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------about---------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="BD.jpg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <P> My name is Bidhan Chandra Ghosh, and I 
+              am currently pursuing a degree in Electronics and Communication Engineering at BP Poddar Institute of Management and Technology. I am deeply passionate about emerging technologies and their potential to drive innovation and progress. My academic journey has equipped me with a strong foundation in electronics and communication systems, and I am 
+              eager to apply this knowledge to solve real-world
+               problems and contribute to technological advancements.
+            </P>
+            <div class="tab-titles">
+              <p class ="tab-links active-link" onclick="opentab('skills')" > Skills </p>
+              <p class ="tab-links " onclick="opentab('education')" > Education </p>
+              
+              
+
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span><b>Data Analysis</b></span><br><br> <b>Programming Languages:</b>Python,Dax
+                <br><b>Databases:</b>Mysql<br><b>Data Visualization tool:</b> Power BI & Advanced Excel
+              <br><b>Mathematics:</b>Statistics,Probability<br></li>
+              <br>
+
+                <li><span><b>Web Development</b></span><br><b>Front-End:</b>Html,Css,Javascript
+                <br><b>Backend:</b>React Js,Node Js,Express Js<br>
+                    <b>Database:</b> MongoDB,Mysql</li>
+              </ul>
+             </div>
+             <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021-2025</span><br>Elctronics and Communication
+                   from B.P Poddar Institute of Managment and Technology</li>
+                   <li><span>2020</span><br>Higher Secondary from Sinthee Ram Krishna Sangha
+                  Vidyamandir</li>
+                  <li><span>2018</span><br> Secondary from Sinthee Ram Krishna Sangha
+                    Vidyamandir</li>
+              </ul>
+             </div>
+
+           
+             
+          </div>
+
+        </div>
+    </div>
+  </div>
+                           <!--portfolio-->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+         <div class="work">
+          <img src="unicron pic.jpg"  width="650" height="500">
+          <div class="layer">
+            <h3>Unicorn Company Challenge</h3>
+            <p>Participated in the Unicorn Company Analysis Challenge by Maven Analytics, focusing on key metrics such as valuation trends, industry distribution, geographic locations, funding rounds, and investor profiles. Conducted detailed
+               analysis on growth drivers and market impact, leveraging data analytics
+                to provide actionable insights.</p>
+            <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+         </div>
+                                            <!--WORK 2 --> 
+         <div class="work">
+          <img src="cho.jpg"  width="650" height="500">
+          <div class="layer">
+            <h3>Chocolate sales analysis</h3>
+            <p>The analysis of chocolate sales highlighted global trends, seasonal peaks during holidays,
+               and a growing demand for health-conscious and unique flavors, with North America leading.</p>
+            <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+         </div> 
+                                  <!--------WORK 3---------->
+         <div class="work">
+          <img src="real estate.jpg" width="650" height="500">
+          <div class="layer">
+            <h3>Real Estate Analysis</h3>
+            <p>The real estate market analysis highlighted global trends, identified seasonal sales peaks, and emphasized the growing demand for sustainable and smart homes. Market
+              performance was assessed, noting the leading positions of urban areas and emerging suburban growth.</p>
+            <a herf="E:\JOURNEY\PORTFOLIO\CHOCOLATE SALES DATA ANALYSIS"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+         </div> 
+        </div>
+        <a href="https://github.com/Bidhanghosh" class="btn">See More</a>
+      </div>
+    </div>
+
+                                    <!-----------Contact----------->
+    <div id="contact">
+      <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> bidhan1729@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 6291677874</p>
+                <div class="social-icon">
+                  <a href="https://www.instagram.com/yoursbidhan/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/bidhan-chandra-ghosh-54b40b224/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/18C4n2At_Iyv9ilhVDBfrRHpB563IEa88/view" class=" btn cv">Download CV</a>
+              </div>
+              
+              <div class="contact-right">   
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn cv">Submit</button>
+                </form>
+                <span id="msg"></span>
+              </div>           
+            </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Bidhan  <i class="fa-solid fa-heart"></i> </p>
+      </div>
+    </div>
+
+
+
+  <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab")
+}
+  </script>
+  <script>
+        var sidemenu =document.getElementById("sidemenu");
+
+
+        function openmenu(){
+          sidemenu.style.right="0";
+        }
+        function closemenu(){
+          sidemenu.style.right="-200px";
+        }
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmwa1fy4i7s6e4suAFhLXFRBsNxC_byTNqERQZE1G_SPM2OKiw2l9w9tKNpJS0mlKt/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML ="Message sent sucessfully"
+          setTimeout(function(){
+            msg.innerHTML=""
+          },2000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  </body>
+</html>
